@@ -19,4 +19,16 @@ class Patient
        a.patient == self
        end
      end
+     def doctors
+       new = [] 
+       Appointment.all.select do |x|
+            new << x.doctor 
+          end 
+          new 
+        end 
+       
+       
+       
+       
+       
 end 

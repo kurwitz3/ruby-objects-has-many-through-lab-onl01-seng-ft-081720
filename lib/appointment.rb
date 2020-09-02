@@ -14,4 +14,5 @@ class Appointment
   end 
   
   def patient(date,patient)
+  end
   end 

@@ -23,5 +23,5 @@ def new_song(name,genre)
       x.genre 
       binding.pry 
   end 
-
+end
 end 

@@ -22,5 +22,6 @@ def patients
   Appointment.all.select do |x|
    new << x.patient
  end 
+ new
  end 
 end

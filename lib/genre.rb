@@ -15,8 +15,7 @@ end
 end 
 def artists 
   Song.all.select do |x|
-    binding.pry 
-    x.artist == self 
+    x.artist
   
 end 
 end 

@@ -20,8 +20,7 @@ def new_song(name,genre)
   
   def genres 
     Song.select do |x|
-      x.genre 
-      binding.pry 
+     binding.pry  
   end 
 end
 end 

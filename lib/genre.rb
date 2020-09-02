@@ -13,10 +13,11 @@ class Genre
       x.genre == self 
 end
 end 
-def artists 
+def artists
+  new = []
   Song.all.select do |x|
     binding.pry 
-    x.artist == self
+    x.artist 
   
 end 
 end 

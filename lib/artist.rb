@@ -21,7 +21,8 @@ def new_song(name,genre)
   def genres
     new = []
     Song.all.select do |x|
-       
-  end 
+       new << x.genre 
+  end
+  new 
 end
 end 

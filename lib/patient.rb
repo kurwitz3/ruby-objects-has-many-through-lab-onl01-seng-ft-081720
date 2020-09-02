@@ -15,8 +15,10 @@ end
 
 
 def doctors 
+  new = []
   Appointment.all.select do |x|
-    binding.pry
+   new << x.doctor
   end 
+  new 
 end 
 end 

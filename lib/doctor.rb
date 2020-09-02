@@ -22,6 +22,7 @@ end
     new = [] 
     Appointment.all.select do |x|
       new <<  x.patients 
+      binding.pry 
     end 
     new 
   end 

@@ -16,9 +16,9 @@ end
 def artists
   new = []
   Song.all.select do |x|
-    binding.pry 
-    x.artist 
-  
+    
+    new << x.artist 
 end 
+new 
 end 
 end 

@@ -11,6 +11,7 @@ def self.all
 end 
 def appointments 
   Appointment.all.select do |x|
+    
      binding.pry 
 end
 end

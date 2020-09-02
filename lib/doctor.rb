@@ -12,6 +12,9 @@ end
 def new_appointment(date,patient)
     Appointment.new(date,patient,self)
   end 
+  def appoitnments
+    Appointment.all.select do |x|
+      x.appoitnments == self 
   
 end
 

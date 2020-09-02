@@ -12,6 +12,8 @@ end
 def appointments 
   Appointment.all.select do |x|
      binding.pry 
+end
+
 def new_appointments(date,patient)
   Patient.new(date,paitent)
 end 

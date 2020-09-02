@@ -15,7 +15,7 @@ def new_appointment(date,patient)
   def appointments
     Appointment.all.select do |x|
       binding.pry
-      x.appointment == self 
+      x.self 
   end
 end
 def patients

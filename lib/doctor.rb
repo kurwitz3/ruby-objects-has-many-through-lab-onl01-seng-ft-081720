@@ -18,6 +18,12 @@ end
 def new_appointments(date,patient)
   Patient.new(date,paitent)
 end 
-  
+  def patients 
+    new = [] 
+    Appointment.all.select do |x|
+      new <<  x.patients 
+    end 
+    new 
+  end 
 
 end 

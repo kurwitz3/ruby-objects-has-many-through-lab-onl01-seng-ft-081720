@@ -16,7 +16,7 @@ def appointments
 end
 end
 def new_appointment(date,patient)
-  Patient.new(date,paitent)
+  Patient.new(date,patient)
 end 
   def patients 
     new = [] 

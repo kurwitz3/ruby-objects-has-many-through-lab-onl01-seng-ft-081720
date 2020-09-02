@@ -9,6 +9,9 @@ end
 def self.all 
   @@all 
 end 
+def appointments 
+  Appointment.all.select do |x|
+     binding.pry 
 def new_appointments(date,patient)
   Patient.new(date,paitent)
 end 

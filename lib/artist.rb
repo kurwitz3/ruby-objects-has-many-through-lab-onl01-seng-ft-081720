@@ -19,7 +19,7 @@ def new_song(name,genre)
   
   
   def genres 
-    Song.select do |x|
+    Song.all.select do |x|
      binding.pry  
   end 
 end

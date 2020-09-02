@@ -17,7 +17,7 @@ end
 def doctors 
   new = []
   Appointment.all.select do |x|
-   new << x.doctor
+   new << x.doctor == self 
   end 
   new 
 end 

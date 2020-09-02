@@ -10,6 +10,8 @@ def self.all
   @@all 
 end 
 def new_appointment(date,patient)
+  Patient.new(date,paitent)
+end 
   
 
 end 

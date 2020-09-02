@@ -1,1 +1,4 @@
-Patient 
+class Patient
+  
+  
+end 

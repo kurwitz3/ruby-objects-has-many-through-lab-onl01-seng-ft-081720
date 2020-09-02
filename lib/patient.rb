@@ -14,5 +14,7 @@ end
 
 
 
-
+def doctors 
+  Appointment.all.select do |x|
+    binding.pry
 end 

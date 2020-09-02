@@ -14,6 +14,7 @@ def new_appointment(date,patient)
   end 
   def appointments
     Appointment.all.select do |x|
+      binding.pry
       x.appointment == self 
   end
 end

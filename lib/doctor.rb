@@ -14,8 +14,13 @@ def new_appointment(date,patient)
   end 
   def appoitnments
     Appointment.all.select do |x|
-      x.appoitnments == self 
+      x.appoitnment == self 
   end
 end
-
+def patients
+  new = []
+  Appointments.all.select do |x|
+   new << x.patient
+ end 
+ end 
 end
